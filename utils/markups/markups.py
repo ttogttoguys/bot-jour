@@ -7,4 +7,5 @@ def get_mainMenu() -> ReplyKeyboardMarkup:
     Возвращает основную клавиатуру, с клавишами:
         Расписание, Задание
     """
+    Test
     pass
