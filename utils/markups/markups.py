@@ -27,10 +27,10 @@ def get_student_mainMenu() -> ReplyKeyboardMarkup:
     return ReplyKeyboardMarkup_student_1
 
 
-def get_student_mainMenu() -> ReplyKeyboardMarkup:
+def get_student_TasksTimeRange() -> ReplyKeyboardMarkup:
     """
     Возвращает основную клавиатуру, с клавишами:
-        Расписание, Задание
+        Следующее занятие, Завтра, Неделя, Все
     """
     button_NextClass = InlineKeyboardButton(text='Следующее занятие')
     button_Tommorow = InlineKeyboardButton(text='Завтра')
